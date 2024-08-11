@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          class="search-input"
+          type="text"
+          placeholder="Enter City Name"
+          spellcheck="false"
+        />
+        <button class="search-btn">
+          <span class="material-symbols-outlined"> search </span>
+        </button>
+      </div>
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <div class="weather">
+        <img src="././img/icon/sun.png" class="weather-icon" />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New York</h2>
+        <div class="details">
+          <div class="col">
+            <img src="./img/icon/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./img/icon/storm.png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./img/icon/latitude.png" />
+            <div>
+              <p class="latitude">40.730610</p>
+              <p>Latitude</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./img/icon/longitude.png" />
+            <div>
+              <p class="longitude">-73.935242</p>
+              <p>Longtiude</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center">
+        <button class="view-btn">View More</button>
+      </div>
+      <div class="col">
+        <div class="cards" id="weather-cards">
+          <div class="mini-card">
+            <h2 class="day-name">Monday</h2>
+            <div class="card-icon">
+              <img src="./img/icon/heavy-rain.png" alt="" />
+            </div>
+            <div class="day-temp">
+              <h2 class="temp">32</h2>
+              <span class="temp-unit">°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="weather-cards">
+          <div class="mini-card">
+            <h2 class="day-name">Monday</h2>
+            <div class="card-icon">
+              <img src="./img/icon/heavy-rain.png" alt="" />
+            </div>
+            <div class="day-temp">
+              <h2 class="temp">32</h2>
+              <span class="temp-unit">°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="weather-cards">
+          <div class="mini-card">
+            <h2 class="day-name">Monday</h2>
+            <div class="card-icon">
+              <img src="./img/icon/heavy-rain.png" alt="" />
+            </div>
+            <div class="day-temp">
+              <h2 class="temp">32</h2>
+              <span class="temp-unit">°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="weather-cards">
+          <div class="mini-card">
+            <h2 class="day-name">Monday</h2>
+            <div class="card-icon">
+              <img src="./img/icon/heavy-rain.png" alt="" />
+            </div>
+            <div class="day-temp">
+              <h2 class="temp">32</h2>
+              <span class="temp-unit">°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="weather-cards">
+          <div class="mini-card">
+            <h2 class="day-name">Monday</h2>
+            <div class="card-icon">
+              <img src="./img/icon/heavy-rain.png" alt="" />
+            </div>
+            <div class="day-temp">
+              <h2 class="temp">32</h2>
+              <span class="temp-unit">°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="weather-cards">
+          <div class="mini-card">
+            <h2 class="day-name">Monday</h2>
+            <div class="card-icon">
+              <img src="./img/icon/heavy-rain.png" alt="" />
+            </div>
+            <div class="day-temp">
+              <h2 class="temp">32</h2>
+              <span class="temp-unit">°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="weather-cards">
+          <div class="mini-card">
+            <h2 class="day-name">Monday</h2>
+            <div class="card-icon">
+              <img src="./img/icon/heavy-rain.png" alt="" />
+            </div>
+            <div class="day-temp">
+              <h2 class="temp">32</h2>
+              <span class="temp-unit">°C</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

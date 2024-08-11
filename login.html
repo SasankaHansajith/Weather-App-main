@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login and Signup</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="card login">
+        <h1>Login</h1>
+        <div class="search">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <br>
+            <button id="login-btn" onclick="attemptLogin()">Login</button>
+        </div>
+        <p id="error-message" class="error"></p>
+        <p class="switch">Don't have an account? <a href="#" onclick="showPart('signup')">Signup</a></p>
+    </div>
+
+    <div class="card signup">
+        <h1>Signup</h1>
+        <div class="search">
+            <input type="text" id="signup-username" placeholder="Username" required>
+            <input type="email" id="signup-email" placeholder="Email" required>
+            <input type="password" id="signup-password" placeholder="Password" required>
+            <br>
+            <button id="create-account-button" onclick="attemptSignup()">Create Account</button>
+        </div>
+        <p id="signup-error-message" class="error"></p>
+        <p class="switch">Already have an account? <a href="#" onclick="showPart('login')">Login</a></p>
+    </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>

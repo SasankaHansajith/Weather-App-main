@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgb(123, 116, 116);
+    background-image: url(./img/./icon/mesmerizing-view-fresh-green-fields-cloudy-sky.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    
+}
+.card{
+    width: 850px;
+    background: linear-gradient(135deg , #00feba,#5b548a);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 40px;
+    text-align: center;
+    opacity: 0.8;
+    /* margin-bottom: 100px; */
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    background: #ebfffc;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+.search button span{
+    justify-content: center;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    gap: 10px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-right: -10px;
+   
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind {
+    font-size: px;
+    margin-top: 10px ;
+}
+.weather{
+    display: none ;
+} 
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    margin: 10px;
+    display: none;
+}
+.cards .mini-card{
+    width: 100px;
+    height: 130px;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 20px;
+    opacity: 0.9;
+    display: none;
+ }
+ .mini-card h2{
+    font-size: 15px;
+    font-weight: 600;
+ }
+ .mini-card .card-icon{
+    width: 50%;
+    margin: 0 auto;
+ }
+ .mini-card .day-temp{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .card-icon img{
+    width: 40px;
+    height: 40px;
+ }
+ .col{
+    gap: 12px;
+    justify-content: center;
+ }
+ 
+          
+ .view-btn {
+    margin: 10px;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(7, 7, 7);            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 30px;
+    display: none;
+    
+  }
+
+  .view-btn:hover {
+    background-position: right center;
+    color: #000000;
+    text-decoration: none;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+  }
+  
